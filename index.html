@@ -53,7 +53,12 @@
                     <span class="text-muted">Runs:3419</span>
                     <span class="text-muted">wickets:122</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Afif Hossain')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -70,7 +75,12 @@
                     <span class="text-muted">Runs:3019</span>
                     <span class="text-muted">wickets:100</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Liton Das')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -87,7 +97,12 @@
                     <span class="text-muted">Runs:5320</span>
                     <span class="text-muted">wickets:154</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Mahmudullah Riyad')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -104,7 +119,12 @@
                     <span class="text-muted">Runs:2470</span>
                     <span class="text-muted">wickets:183</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Mushfiqur Rahim')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -121,7 +141,12 @@
                     <span class="text-muted">Runs:2239</span>
                     <span class="text-muted">wickets:190</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Mustafizur Rahman')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -138,7 +163,12 @@
                     <span class="text-muted">Runs:3469</span>
                     <span class="text-muted">wickets:83</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Nasum Ahmed')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -155,7 +185,12 @@
                     <span class="text-muted">Runs:1297</span>
                     <span class="text-muted">wickets:175</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Rubel Hossain')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -172,7 +207,12 @@
                     <span class="text-muted">Runs:3459</span>
                     <span class="text-muted">wickets:80</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Sabbir Rahman')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -189,7 +229,12 @@
                     <span class="text-muted">Runs:7608</span>
                     <span class="text-muted">wickets:220</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Sakib-Al-Hasan')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -206,7 +251,12 @@
                     <span class="text-muted">Runs:3419</span>
                     <span class="text-muted">wickets:122</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Soumya Sarkar')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -223,7 +273,12 @@
                     <span class="text-muted">Runs:4190</span>
                     <span class="text-muted">wickets:182</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Tamim Iqbal')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -240,7 +295,12 @@
                     <span class="text-muted">Runs:3208</span>
                     <span class="text-muted">wickets:206</span>
                   </p>
-                  <button class="btn btn-primary w-100">Select</button>
+                  <button
+                    class="btn btn-primary w-100"
+                    onclick="selection(this,'Taskin Ahmed')"
+                  >
+                    Select
+                  </button>
                 </div>
               </div>
             </div>
@@ -253,12 +313,12 @@
                 <div class="card-body">
                   <h5 class="card-title text-center">Your Selection</h5>
                   <hr class="border border-warning border-2 opacity-100" />
-                  <ol>
-                    <li>Sakib Al Hasan</li>
+                  <ol id="list">
+                    <!-- <li>Sakib Al Hasan</li>
                     <li>mushfiqur rahim</li>
                     <li>Liton Das</li>
                     <li>Taskin Ahmed</li>
-                    <li>Soumya Sarkar</li>
+                    <li>Soumya Sarkar</li> -->
                   </ol>
                 </div>
               </div>
@@ -270,25 +330,41 @@
                   <hr class="border border-warning border-2 opacity-100" />
                   <p class="d-flex justify-content-between mt-2">
                     <span>Per Player:</span>
-                    <input class="text-white bg-secondary w-50" type="text" />
+                    <input
+                      id="expense"
+                      class="text-white bg-secondary w-50"
+                      type="text"
+                    />
                   </p>
-                  <button class="btn btn-primary w-100">Calculate</button>
+                  <button id="calculate" class="btn btn-primary w-100">
+                    Calculate
+                  </button>
                   <p class="d-flex justify-content-between mt-2">
                     <span>Player Expenses:</span>
-                    <span>$00</span>
+                    <span>$ <span id="totalExpense">00</span> </span>
                   </p>
                   <p class="d-flex justify-content-between mt-2">
                     <span>Manager:</span>
-                    <input class="text-white bg-secondary w-50" type="text" />
+                    <input
+                      id="manager"
+                      class="text-white bg-secondary w-50"
+                      type="text"
+                    />
                   </p>
                   <p class="d-flex justify-content-between mt-2">
                     <span>Coach:</span>
-                    <input class="text-white bg-secondary w-50" type="text" />
+                    <input
+                      id="coach"
+                      class="text-white bg-secondary w-50"
+                      type="text"
+                    />
                   </p>
-                  <button class="btn btn-primary w-100">Calculate Total</button>
+                  <button id="calculateTotal" class="btn btn-primary w-100">
+                    Calculate Total
+                  </button>
                   <p class="d-flex justify-content-between mt-2">
                     <span>Total Expenses:</span>
-                    <span>$00</span>
+                    <span>$ <span id="totalCalculate">00</span> </span>
                   </p>
                 </div>
               </div>
@@ -308,5 +384,6 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
